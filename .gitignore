@@ -33,3 +33,14 @@ compile
 *.pdb
 *.ilk
 *.idb
+
+# Android build artifacts
+build/
+obj/
+libs/
+
+# macOS
+.DS_Store
+
+# IDE
+.idea/
