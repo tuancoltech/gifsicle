@@ -3,6 +3,12 @@
 Gifsicle [![Build Status](https://github.com/kohler/gifsicle/actions/workflows/tests.yml/badge.svg)](https://github.com/kohler/gifsicle/actions/workflows/tests.yml)
 ========
 
+> **Fork Modification Note**
+>
+> This fork adds support for building Gifsicle as a shared library (`libgifsicle.so`) for Android (arm64-v8a, x86_64), with alignment to the [16KB memory page size
++requirement](https://developer.android.com/guide/practices/page-sizes) introduced for Android 15+ devices. See the included build script for details. 
+> If you love my work, you can support me via [GitHub Sponsors](https://github.com/sponsors/tuancoltech) or [Buy Me a Coffee](https://buymeacoffee.com/tuancoltech).
+
 Gifsicle manipulates GIF image files. Depending on command line
 options, it can merge several GIFs into a GIF animation; explode an
 animation into its component frames; change individual frames in an
